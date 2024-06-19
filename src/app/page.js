@@ -1,15 +1,13 @@
-// pages/index.js
-import Image from "next/image";
-import Head from "./components/Head";
-import Main from "./components/Main";
+// src/app/page.js
+
+import Navbar from "../components/Navbar";
+import MainContent from "../components/MainContent";
 
 export default function Home() {
   return (
     <div>
-      <Head />
-      <br/>
-      <Main />
-     
+      <Navbar />
+      <MainContent />
     </div>
   );
 }
